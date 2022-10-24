@@ -1,0 +1,295 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    background-color: #EAEDED;
+}
+h2{
+    margin-top: -3px;
+    font-weight: bold;
+    font-size: 16px;
+}
+p{ 
+    font-weight: 30;
+    font-size: 14px;
+}
+.banner{
+    background-color: #131921;
+}
+a{
+    color: #187E90;
+    font-size: 14px;
+
+}
+.header
+{
+    margin-right: 20px;
+    padding: 20px 0;
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #131921;
+    color: #fff;
+}
+.address p{
+    margin-left: 16px;
+}
+.logo img
+{
+    width: 120px;
+}
+.search{
+  position:relative; 
+  height: 40px; 
+}
+.search select{
+   position: absolute;
+   top: 0;
+   left: 0;
+   height: 100%;
+   width: 45px;
+   border: none;
+   background-color: rgba(221, 220, 220, 0.829);
+   border-radius: 5px 0 0 5px;
+   font-size: 15px;
+}
+.search .searchicon{
+    background-color: #FEBD69;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 45px;
+    border-radius: 0 5px 5px 0;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+.search .searchicon:hover{
+    background-color: #f8b257;
+}
+.searchicon i{
+    font-size: 18px;
+    color: rgb(17, 17, 17);
+}
+.search input
+{   width: 650px;
+    height: 40px;
+    border-radius: 5px;
+    border-style: none;
+}
+.country{
+    width: 30px;
+    margin-right: 10px;
+}
+.country h4{
+    font-weight: 30px;
+    font-size: 14px;
+}
+.country select
+{
+    background:url(img/flag.jpg);
+    background-repeat: no-repeat;
+    background-size:contain;
+    color: #fff;
+    border: none;
+}
+.cart
+{
+    display: flex;
+    align-items: center;
+}
+.cart .carticon
+{
+    font-size: 30px;
+    margin-right: 5px;
+}
+.nav2{
+    background-color: #232F3E;;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.nav2 .menu ul li
+{
+    display:inline ;
+    margin-left: 27px;
+    color: #fff;
+}
+.nav2 .menu ul li:first-child{
+    margin-left: 0;
+}
+
+.nav2 .menu ul li:nth-child(2){
+    margin-left: 0;
+    font-weight: bold;
+}
+.hero{
+    width: 100%;
+    height: 647px;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero .heroimg{
+    background-color: aqua; 
+}
+.hero .heroimg .slide{
+    width: 100%;
+    position: absolute;
+    transition: 1s;
+
+}
+.hero .left{
+    position: absolute;
+    top: 0;
+    left:0;
+    border: 2px solid black;
+    z-index: 1000;
+    height: 100%;
+    border-style: none;
+}
+.left button{
+    width: 40px;
+    height: 30%;
+    opacity: 0;
+    transition: 300ms;
+    border-style: none;
+    position: relative;
+}
+.left button i{
+    position: absolute;
+    top:35px;
+    left:0;
+    font-size: 55px;
+}
+.left button:hover{
+    opacity: 0.3;
+    border: 2px solid #fff;
+}
+.hero .right{
+    position: absolute;
+    height: 30%;
+    top: 0;
+    right:0;
+    border: 2px solid black;
+    z-index: 1000;
+    border-style: none;
+}
+.right button{
+    width: 40px;
+    height: 100%;
+    opacity: 0;
+    transition: 300ms;
+    border-style: none;
+    position: relative;
+}
+.right button i{
+    position: absolute;
+    top:35px;
+    right:0;
+    font-size: 55px;
+}
+.right button:hover{
+    opacity: 0.3;
+    border: 4px solid #fff;
+}
+.hero .ads{
+    /* border: 3px solid black; */
+    position: absolute;
+    top: 230px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.hero .ads .ad1, .ad2, .ad3, .signup, .ad5{
+    background-color: #FFFFFF;
+    width: 320px;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    overflow: hidden;
+}
+ .inner1 a{
+    margin-top: 20px;
+}
+
+.hero .ads .ad1 img{
+    margin-top: 10px;
+    width: 100%;
+}
+.hero .ads .ad2 .inner{
+    margin-top: 10px;
+    overflow: hidden;
+    display: flex;
+
+}
+.hero .ads .ad2 .inner .adright{
+
+    margin-left: 5px;
+}
+.hero .ads .ad2 .inner img{
+    width: 100%;
+}
+.hero .ads .ad3 img{
+    margin-top: 10px;
+    width: 100%;
+}
+.hero .ads .inner1{
+    margin-top: 10px;
+    width: 280px;
+    height: 240px;
+
+    overflow: hidden;
+    margin-right: 20px;
+}
+.hero .ads .inner1 img{
+    transform: scale(1.3);
+}
+
+.hero .ads .ad3 .inner3{
+    margin-top: 10px;
+    width: 280px;
+    height: 275px;
+   
+    overflow: hidden;
+    margin-right: 20px;
+}
+.hero .ads .ad3 .inner3 img{
+    transform: scale(1.3);
+}
+.signup{
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.signup button
+{
+    background-color: #FFD814;
+    width: 100%;
+    height: 30px;
+    border-style: none;
+    border-radius: 10px;
+    
+    font-size: 15px;
+    margin-top: 12px;
+}
+.signup button a{
+    text-decoration: none;
+    color: #514811;
+}
+.ad5{
+    padding: 0;
+}
+.ad5 img{
+    width: 100%;
+}
+
+
+
